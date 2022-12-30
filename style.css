@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+           /* NavBar 1 Start*/
+           
+.maindiv{
+    display: flex;
+    height: 70px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    background-color: #f6f6f6;
+}
+
+.navBarimg{
+    display: flex;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchicon{
+    /* background-color: #f6f6f6; */
+    width:45%;
+    display:flex;
+    align-items: center;
+    justify-content:center
+}
+
+.searchicon input{
+    border-radius: 25px;
+    height: 0px;
+    width: 90%; 
+    padding: 20px;
+    /* border: 0px; */
+    outline: 0px;
+    border: 2px solid #ff6a00;
+    margin: -58px;
+}
+
+.searchicon button{
+    border-radius:25px ;
+    height: 40px;
+    width: 10%;
+    border: 0;
+    background-color: #ff6a00;
+    /* border-color: #ff6a00;  */
+    cursor: pointer; 
+}
+
+.searchicon button:hover{
+    /* color: #472106; */
+}
+.linkicon{
+    background-color:  #f6f6f6;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.linkicon i{
+    font-size: 25px;
+}
+           /* NavBar 1 End*/
+           /* NavBar 2 Start*/
+
+li{
+    display: inline;
+}
+
+.navBar2{
+    display: flex;
+    height: 40px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px #7777;
+}
+
+.navBar2>ul{
+    display: flex;
+    font-size: 15px;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.navBar2 li:hover{
+    color: #ff6a00;
+}
+/* .navBar2:hover i{
+    background-attachment: url(./Assests/ss.png) no-repeat;
+} */
+
+            /* NavBar 2 End*/
+            /* Main Page Start */
+
+.Mainpage{
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    background-color: rgba(128, 128, 128, 0.171);
+}  
+            
+                          /* Left & Right Sides Start  */
+
+.BothSides{
+    display: flex;
+}
+
+.Leftside{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #7777;
+}
+
+h5{
+    font-weight: 800;
+}
+
+.Leftside :hover{
+    color: #ff6a00;
+}
+.Leftside input :hover{
+    color: #ff6a00;
+}
+
+
+.rightside{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.014);
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* box-shadow: 5px 5px 5px #7777; */
+}
+
+h2{
+    position: absolute;
+    font-weight: 500;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 24%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #7777;
+    padding: 15px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px
+}
+
+.greenBtn{
+    background-color:#ff6a00;
+    color: white;
+    padding: 5px 15px;
+    border: 0;
+    font-size: 1.1em;
+    border-radius: 25px;
+}
+                            /* Left & Right Sides End  */
+                            /* Footer Start */
+.footer{
+    background-color: white;
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 19px;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #7777;
+}
+
+.lastfooter{
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 15px;
+}
+                              /* Footer End */
+
+
+             /* Main Page End */
